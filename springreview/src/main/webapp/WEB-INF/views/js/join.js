@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	var form = $("#joinForm");
+	var form = $("#frmJoin");
 	
 	
 	
@@ -70,7 +70,7 @@ $(document).ready(function() {
 			mem_addr_d.focus();
 
 		} else {
-			form.submit();  // 전송태그를 <button type="button"> 를 사용하여 서브밋메서들 호출함.
+			form.submit();
 		}
 	});
 	

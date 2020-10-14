@@ -19,4 +19,10 @@ public class MemberServiceImpl implements MemberService {
 		
 	}
 
+	@Override
+	public void modifyUserInfo(MemberVO vo) throws Exception {
+
+		dao.modifyUserInfo(vo);
+	}
+
 }

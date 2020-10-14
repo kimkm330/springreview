@@ -22,4 +22,10 @@ public class MemberDAOImpl implements MemberDAO {
 		
 	}
 
+	@Override
+	public void modifyUserInfo(MemberVO vo) throws Exception {
+		// TODO Auto-generated method stub
+		session.update(NS+ ".modifyUserInfo", vo);
+	}
+
 }
