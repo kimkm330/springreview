@@ -16,6 +16,7 @@ public class MemberVO {
 	private String  mem_pw;  
 	private String  mem_email;  
 	private String  mem_addr; 
+	private String 	mem_zipcode;
 	private String  mem_phone;  
 	private String  mem_nick;  
 	private int 	mem_point;        
@@ -96,6 +97,12 @@ public class MemberVO {
 	public void setMem_authcode(String mem_authcode) {
 		this.mem_authcode = mem_authcode;
 	}
+	public String getMem_zipcode() {
+		return mem_zipcode;
+	}
+	public void setMem_zipcode(String mem_zipcode) {
+		this.mem_zipcode = mem_zipcode;
+	}
 	
 	@Override
 	public String toString() {
@@ -105,6 +112,7 @@ public class MemberVO {
 				+ ", mem_date_sub=" + mem_date_sub + ", mem_date_up=" + mem_date_up + ", mem_date_last=" + mem_date_last
 				+ ", mem_authcode=" + mem_authcode + "]";
 	}
+	
 	
 	
 	
